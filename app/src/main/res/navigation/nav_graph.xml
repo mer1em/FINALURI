@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.finaluri.fragments2.ReceipeFragment"
+        android:label="BEST COUNTRIES TO VISIT"
+        tools:layout="@layout/fragment_receipe" />
+    <fragment
+        android:id="@+id/secondaryFragment"
+        android:name="com.example.finaluri.fragments2.BadCountryFragment"
+        android:label="WORST COUNTRIES TO VISIT"
+        tools:layout="@layout/fragment_receipe" />
+    <fragment
+        android:id="@+id/changePasswordFragment"
+        android:name="com.example.finaluri.fragments.ChangePasswordFragment"
+        android:label="ChangePasswordFragment"
+        tools:layout="@layout/fragment_password_change"/>
+</navigation>

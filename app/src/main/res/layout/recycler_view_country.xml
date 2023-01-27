@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="#CA5924"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="3dp"
+    app:contentPadding="4dp">
+
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/goodText4"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:gravity="end"
+                android:text="News"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/goodView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/goodView"
+                app:layout_constraintVertical_bias="0.99"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/goodText3"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:gravity="end"
+                android:text="Cases"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/goodView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/goodView"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/goodText"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="TextView"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/goodView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/goodView"
+                app:layout_constraintTop_toTopOf="@+id/goodView"
+                app:layout_constraintVertical_bias="0.526"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/goodText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="60dp"
+                android:text="g"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/goodView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.059"
+                app:layout_constraintStart_toEndOf="@+id/goodView"
+                app:layout_constraintTop_toTopOf="@+id/goodView"
+                app:layout_constraintVertical_bias="0.504"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/goodView"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="9dp"
+                android:background="@drawable/border_image"
+                android:cropToPadding="true"
+                android:padding="1dp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="ContentDescription"
+                tools:srcCompat="@tools:sample/avatars" />
+      </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
+
